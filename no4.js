@@ -8,4 +8,4 @@ const divideAndShort = (angka) => {
     return console.log(Number(hasil));
 }
 
-divideAndShort(32105430567);
+divideAndShort(3214505430567);
