@@ -19,4 +19,24 @@ const reverseWords = (kalimat) => {
 console.log(reverseWords("jalan makan siomay"));
 
 
+// // program to reverse a string
+
+// function reverseString(str) {
+
+//     // empty string
+//     let newString = [""];
+//     let newString2 = [];
+//     for (let i = str.length - 1; i >= 0; i--) {
+//         newString = newString + str[i];
+//     }
+//     for (let j = 0; j <= newString.length - 1; j--) {
+//         newString2 += newString[j];
+//     }
+//     return newString2;
+// }
+
+// // take input from the user
+// console.log(reverseString("makan siomay"));
+
+
 
