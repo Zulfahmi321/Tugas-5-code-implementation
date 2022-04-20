@@ -1,15 +1,15 @@
 const divideAndShort = (angka) => {
     if (typeof angka !== "number") {
-        return console.log('data angka harus berupa number');
+        return 'data angka harus berupa number'
     }
     let arrderet = angka.toString().split("0")
     let hasil = ""
-    console.log(arrderet);
+    // console.log(arrderet);
     for (let i = 0; i <= arrderet.length - 1; i++) {
         hasil += arrderet[i].split("").sort().join("")
     }
-    return console.log(Number(hasil));
+    return Number(hasil);
 }
 
-divideAndShort("3214505430567");
-divideAndShort(3214505430567);
+console.log(divideAndShort("3214505430567"));
+console.log(divideAndShort(3214505430567));
