@@ -1,5 +1,5 @@
-// reverse word
-const reverseWord = (kalimat) => {
+// reverse words
+const reverseWords = (kalimat) => {
     let kata = "";
     let hasil = "";
 
@@ -16,7 +16,7 @@ const reverseWord = (kalimat) => {
     return console.log(hasil);
 }
 
-reverseWord("jalan makan siomay")
+reverseWords("jalan makan siomay")
 
 
 
