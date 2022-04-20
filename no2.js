@@ -13,10 +13,10 @@ const reverseWords = (kalimat) => {
         }
     }
     hasil = kata + " " + hasil  // di akhir kalimat tidak ada spasi, untuk menampung kata terakhir kedalam hasil
-    return console.log(hasil);
+    return hasil;
 }
 
-reverseWords("jalan makan siomay")
+console.log(reverseWords("jalan makan siomay"));
 
 
 
