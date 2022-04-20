@@ -1,4 +1,4 @@
-// reverse words
+// reverse word
 const reverseWords = (kalimat) => {
     let kata = "";
     let hasil = "";

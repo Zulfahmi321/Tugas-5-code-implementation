@@ -1,4 +1,4 @@
-// Deteksi palindrom
+// Deteksi palindrome
 function checkPalindrome(kata) {
     if (typeof kata !== "string") { //validasi untuk input kata berupa string
         return console.log("Kata yang dimasukan harus berupa string");
