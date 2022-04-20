@@ -4,7 +4,7 @@ const divideAndShort = (angka) => {
     }
     let arrderet = angka.toString().split("0")
     let hasil = ""
-    // console.log(arrderet);
+    console.log(arrderet);
     for (let i = 0; i <= arrderet.length - 1; i++) {
         hasil += arrderet[i].split("").sort().join("")
     }
