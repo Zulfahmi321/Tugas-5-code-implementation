@@ -47,4 +47,8 @@ const ArkFood = (harga, voucher, jarak, pajak) => {
 
     return console.log(` harga: ${harga} \n potongan : ${potongan} \n Biaya Antar: ${ongkir} \n pajak : ${kenaPajak} \n subtotal : ${harga - potongan + ongkir + kenaPajak}`);
 }
-ArkFood(50000, 'ARKAFOOD5', 2, false);
+ArkFood("50000", 'DITRAKTIRDEMY', 2, true);
+ArkFood(50000, 1234, 2, false);
+ArkFood(50000, 'DITRAKTIRDEMY', "2", true);
+ArkFood(50000, 'DITRAKTIRDEMY', 2, "false");
+ArkFood(50000, 'DITRAKTIRDEMY', 2, true);
