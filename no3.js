@@ -45,6 +45,6 @@ const ArkFood = (harga, voucher, jarak, pajak) => {
         kenaPajak = harga * 5 / 100
     }
 
-    return console.log(`harga: ${harga} \n potongan : ${potongan} \n Biaya Antar: ${ongkir} \n pajak : ${kenaPajak} \n subtotal : ${harga - potongan + ongkir + kenaPajak}`);
+    return console.log(` harga: ${harga} \n potongan : ${potongan} \n Biaya Antar: ${ongkir} \n pajak : ${kenaPajak} \n subtotal : ${harga - potongan + ongkir + kenaPajak}`);
 }
 ArkFood(50000, 'ARKAFOOD5', 2, false);

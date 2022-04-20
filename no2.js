@@ -4,10 +4,10 @@ const reverseWord = (kalimat) => {
     let hasil = "";
 
     for (let i = 0; i <= kalimat.length - 1; i++) {
-        if (kalimat[i] !== " ") {           // ketika karakter bukan spasi maka melakukan looping kalimat ke dalam var kata
+        if (kalimat[i] !== " ") {           // ketika karakter bukan spasi maka melakukan looping kalimat ke dalam variabel kata
             kata = kata + kalimat[i]
         }
-        if (kalimat[i] === " ") {           // ketika karakter berupa spasi maka memasukan isi variabel kata ke var hasil lalu mengkosongkan var kata
+        if (kalimat[i] === " ") {           // ketika karakter berupa spasi maka memasukan isi variabel kata ke variabel hasil lalu mengkosongkan variabel kata
             hasil = kata + " " + hasil
             kata = ""
         }
