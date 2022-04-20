@@ -1,23 +1,3 @@
-// // Deteksi palindrom
-// function checkPalindrome(string) {
-//     const panjang = string.length;
-//     //melakukan perulangan panjang string sampai kondisi terpenuhi
-//     for (let i = 0; i < panjang; i++) {
-//         console.log(i);
-//         // mengecek apakah huruf pertama dan huruf terakhir sama
-//         if (string.toLowerCase()[i] !== string.toLowerCase()[panjang - 1 - i]) {
-
-//             return 'bukan palindrom';
-//         }
-//     }
-//     return 'palindrom';
-// }
-
-// // panggil fungsi
-// console.log(checkPalindrome('MakAM'));
-// console.log(checkPalindrome('madam'));
-
-
 // Deteksi palindrom
 function checkPalindrome(kata) {
     if (typeof kata !== "string") { //validasi untuk input kata berupa string
